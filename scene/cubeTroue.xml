@@ -1,0 +1,31 @@
+<scene>
+	<camera>
+		<position>0,0,0</position>
+		<orientation>1,0,0</orientation>
+	</camera>
+	<plane>
+		<position>100,0,0</position>
+		<color>50,50,50</color>
+		<orientation>1,0,0</orientation>
+	</plane>
+	<cylinder>
+		<position>50,0,0</position>
+		<color>0,0,255</color>
+		<size>5,15</size>
+		<negative>1</negative>
+		<orientation>1,0,0</orientation>
+	</cylinder>
+	<cube>
+		<position>50,0,0</position>
+		<size>15</size>
+		<color>250,0,0</color>
+	</cube>
+	<light>
+		<position>20,30,0</position>
+		<intensity>60</intensity>
+	</light>
+	<light>
+		<position>20,-30,0</position>
+		<intensity>60</intensity>
+	</light>
+</scene>

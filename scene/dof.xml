@@ -1,0 +1,25 @@
+<scene>
+	<camera><position>-190,-20,100</position><orientation>1,0,-0.5</orientation></camera>
+	<plane><position>0,-300,0</position><orientation>0,1,0</orientation><color>100,100,100</color></plane>
+    <plane><position>0,300,0</position><orientation>0,1,0</orientation><color>100,100,100</color></plane>
+    <plane><position>0,0,-300</position><orientation>0,0,1</orientation><color>100,100,100</color></plane>
+    <plane><position>0,0,300</position><orientation>0,0,1</orientation><color>100,100,100</color></plane>
+    <plane><position>-300,0,0</position><orientation>1,0,0</orientation><color>100,100,100</color></plane>
+    <plane><position>350,0,0</position><orientation>1,0,0</orientation><color>100,100,100</color><specularity>0.3</specularity></plane>
+	<sphere><position>-8,8,-8</position><size>10</size><color>0,200,70</color><reflection>100</reflection></sphere>
+    <sphere><position>226,-27,260</position><size>10</size><color>0,200,70</color><specularity>0.18</specularity></sphere>
+    <sphere><position>126,59,284</position><size>10</size><color>0,200,70</color></sphere>
+    <sphere><position>40,30,140</position><size>10</size><color>0,200,70</color></sphere>
+    <sphere><position>-89,21,-86</position><size>10</size><color>0,200,70</color></sphere>
+    <sphere><position>188,129,103</position><size>10</size><color>0,200,70</color></sphere>
+    <sphere><position>171,-20,3</position><size>10</size><color>0,200,70</color></sphere>
+    <sphere><position>-48,-30,70</position><size>10</size><color>0,200,50</color></sphere>
+    <sphere><position>295,25,50</position><size>10</size><color>0,200,70</color><specularity>0.05</specularity></sphere>
+    <sphere><position>197,150,-103</position><size>10</size><color>0,200,70</color></sphere>
+	<sphere><position>-125,-28,120</position><size>3</size><color>190,0,0</color><texture>bricks</texture></sphere>
+    <light><position>150,25,0</position><intensity>30</intensity></light>
+    <light><position>-100,-30,-100</position><intensity>30</intensity></light>
+    <light><position>225,100,75</position><intensity>35</intensity></light>
+    <light><position>-150,200,150</position><intensity>25</intensity></light>
+    <light><position>-150,-200,150</position><intensity>10</intensity></light>
+</scene>

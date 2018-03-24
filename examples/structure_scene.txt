@@ -1,0 +1,57 @@
+<!-- ok -->
+<scene>
+	<camera>
+		<position>0,10,-40</position>			-> x,y,z
+		<orientation>10,0,0</orientation>		-> x,y,z
+	</camera>
+	<objet> -> objet = sphere, plane, cone, cylinder, cube
+		<position>
+			x,y,z
+		</position>
+		<size>
+			x ou x,y,z -> valeurs negatives = objet negatif, si x,y,z = objet limité
+		</size>
+		<reflection>
+			100
+		</reflection>
+		<refraction>
+			1.5
+		</refraction>
+		<opacity>
+			100
+		</opacity>
+		<specularity>
+			1.0
+		</specularity>
+		<perturbation>
+			80
+		</perturbation>
+		<texture>
+			nom (bricks, chessboard, wood, marble)
+		</texture>
+		<color>
+			r,g,b ou hexa ou int
+		</color>
+		<orientation>
+			x,y,z
+		</orientation>
+		<translatio>
+			x,y,z
+		</translatio>
+		<noise>
+			16, 0.15, 0.5
+		</noise>
+	</objet>
+	<!-- ok -->
+	<light>
+		<!-- ok -->
+		<position>
+			<!-- erreur -->
+			x,y,z
+		</position>
+		<intensity>
+			100
+		</intensity>
+	</light>
+</scene>
+<!-- ok -->

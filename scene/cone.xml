@@ -1,0 +1,21 @@
+<scene>
+	<camera>
+		<position>0,0,0</position>
+		<orientation>1,0,0</orientation>
+	</camera>
+	<plane>
+		<position>100,0,0</position>
+		<orientation>1,0,0</orientation>
+		<color>100,100,100</color>
+	</plane>
+	<cone>
+		<position>50,0,30</position>
+		<orientation>1,0,0</orientation>
+		<color>0,0,250</color>
+		<size>10,200</size>
+	</cone>
+	<light>
+		<position>0,0,0</position>
+		<intensity>100</intensity>
+	</light>
+</scene>

@@ -1,0 +1,28 @@
+<scene>
+	<camera>
+		<position>100,-20,-40</position>
+		<orientation>10,0,7</orientation>
+	</camera>
+	<plane>
+		<position>0,-50,0</position>
+		<orientation>0,1,0</orientation>
+		<color>110,110,110</color>
+	</plane>
+	<sphere>
+		<position>180,-10,0</position>
+		<size>13</size>
+		<color>255,0,128</color>
+	</sphere>
+	<light>
+		<position>50,100,40</position>
+		<intensity>50</intensity>
+	</light>
+	<light>
+		<position>50,100,-40</position>
+		<intensity>50</intensity>
+	</light>
+    <light>
+		<position>50,100,0</position>
+		<intensity>50</intensity>
+	</light>
+</scene>

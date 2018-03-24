@@ -1,0 +1,44 @@
+<scene>
+	<camera>
+		<position>0,0,0</position>
+		<orientation>1,0,0</orientation>
+	</camera>
+
+	<cone><position>-200,0,170</position><size>8,150</size><orientation>0,3,1</orientation><texture>marble</texture><noise>16,0.25,0.55</noise></cone>
+
+	<cube><position>70,50,20</position><size>10</size><color>20,60,150</color><specularity>0</specularity></cube>
+	<cube><position>70,50,20</position><size>10</size><color>20,130,30</color><specularity>0</specularity></cube>
+
+	<sphere><position>150,28,85</position><color>70,0,70</color><size>21</size><specularity>0</specularity></sphere>
+	<sphere><position>150,150,-150</position><color>20,70,120</color><size>12</size><specularity>0</specularity></sphere>
+	<sphere><position>95,-35,-60</position><color>0,70,100</color><size>35</size><specularity>0.1</specularity><bump_mapping>0.18</bump_mapping></sphere>
+	<sphere><position>150,-30,30</position><color>200,200,20</color><size>5</size><specularity>0</specularity></sphere>
+	<sphere><position>-100,40,40</position><color>200,20,100</color><size>18</size><specularity>0</specularity></sphere>
+	<sphere><position>-28,-100,-150</position><color>150,150,30</color><size>28</size><specularity>0</specularity></sphere>
+
+	<cylinder><position>300,-300,-300</position><color>139,69,19</color><orientation>1,0,0</orientation><size>4</size><specularity>0.05</specularity></cylinder>
+	<cylinder><position>300,-300,300</position><color>139,69,19</color><orientation>1,0,0</orientation><size>4</size><specularity>0.05</specularity></cylinder>
+	<cylinder><position>300,300,-300</position><color>139,69,19</color><orientation>1,0,0</orientation><size>4</size><specularity>0.05</specularity></cylinder>
+	<cylinder><position>300,300,300</position><color>139,69,19</color><orientation>1,0,0</orientation><size>4</size><specularity>0.05</specularity></cylinder>
+
+	<plane><position>300,0,0</position><color>100,100,100</color><orientation>1,0,0</orientation><reflection>78</reflection></plane>
+	<plane><position>-300,0,0</position><color>100,100,100</color><orientation>1,0,0</orientation><reflection>78</reflection></plane>
+	<plane><position>0,300,0</position><color>100,100,100</color><orientation>0,1,0</orientation><reflection>78</reflection></plane>
+	<plane><position>0,-300,0</position><color>100,100,100</color><orientation>0,1,0</orientation><reflection>78</reflection></plane>
+	<plane><position>0,0,300</position><color>100,100,100</color><orientation>0,0,1</orientation><reflection>78</reflection></plane>
+	<plane><position>0,0,-300</position><color>100,100,100</color><orientation>0,0,1</orientation><reflection>78</reflection></plane>
+	
+	<light><position>-1,0,0</position><intensity>18</intensity></light>
+	<light><position>220,0,0</position><intensity>18</intensity></light>
+	<light><position>-220,0,0</position><intensity>18</intensity></light>
+	<light><position>0,0,220</position><intensity>18</intensity></light>
+	<light><position>220,0,220</position><intensity>18</intensity></light>
+	<light><position>220,0,-220</position><intensity>18</intensity></light>
+	<light><position>0,0,-220</position><intensity>18</intensity></light>
+	<light><position>-220,0,-220</position><intensity>18</intensity></light>
+	<light><position>-220,0,220</position><intensity>18</intensity></light>
+	<light><position>0,220,-220</position><intensity>16</intensity></light>
+	<light><position>0,220,220</position><intensity>16</intensity></light>
+	<light><position>-220,220,0</position><intensity>16</intensity></light>
+	<light><position>220,220,0</position><intensity>16</intensity></light>
+</scene>

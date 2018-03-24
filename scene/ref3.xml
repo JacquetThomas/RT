@@ -1,0 +1,27 @@
+<scene>
+	<camera>
+		<position>0,0,0</position>
+		<orientation>5,0,2</orientation>
+	</camera>
+	<plane>
+		<position>11,0,0</position>
+		<orientation>1,0,0</orientation>
+		<reflection>80</reflection>
+		<color>100,100,100</color>
+	</plane>
+	<plane>
+		<position>-1,0,0</position>
+		<orientation>1,0,0</orientation>
+		<reflection>80</reflection>
+		<color>100,100,100</color>
+	</plane>
+	<light>
+		<position>5,2,0</position>
+		<intensity>90</intensity>
+	</light>
+	<sphere>
+		<position>5,0,5</position>
+		<size>1</size>
+		<color>0,200,70</color>
+	</sphere>
+</scene>

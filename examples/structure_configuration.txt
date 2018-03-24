@@ -1,0 +1,18 @@
+focus_dist:			distance a laquelle se trouve le point de focus
+150
+ambient_light:		lumiere min dans la scene
+0.0
+aperture:			ouverture
+1.4
+anti_aliasing:
+2
+depth_of_field:		active ou non la profondeur de champ
+0
+dof_intensity:		nombre de rayon / pixels pour la profondeur de champ
+300
+soft_shadows:		active ou non les ombres douces
+0
+effects:			active ou non les effets
+0
+show_lights:
+1
